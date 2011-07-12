@@ -7,6 +7,3 @@
   status = auto
   branch = auto
   interactive = auto
-[user]
-	name = Tal Safran
-	email = tsafran@gmail.com
