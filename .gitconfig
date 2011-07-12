@@ -1,0 +1,12 @@
+[alias]
+  st = status
+  co = checkout
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+[user]
+	name = Tal Safran
+	email = tsafran@gmail.com
