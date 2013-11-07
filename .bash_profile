@@ -9,5 +9,5 @@ alias ..="cd .."
 
 # Colors are nice
 export CLICOLOR=1
-export PS1="\[\033[01;32m\]tsafran:\[\033[01;34m\]\w \$\[\033[00m\] "
+export PS1="\[\033[01;32m\]$USER:\[\033[01;34m\]\w \$\[\033[00m\] "
 export GREP_OPTIONS='--color=auto'
