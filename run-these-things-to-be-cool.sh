@@ -10,3 +10,6 @@ defaults write -g KeyRepeat -int 1
 
 # Remove character recommendation when you hold a button
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Emable "locate" command
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
