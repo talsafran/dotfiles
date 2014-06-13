@@ -13,3 +13,6 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 
 # Emable "locate" command
 sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+# Death to .DS_Store
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
