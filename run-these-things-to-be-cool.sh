@@ -16,3 +16,9 @@ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
 # Death to .DS_Store
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+
+# Git Autocompletion
+# Make sure to `source ~/.git-completion.bash` in your bash_profile
+# http://code-worrier.com/blog/autocomplete-git/
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
