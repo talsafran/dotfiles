@@ -11,3 +11,8 @@ alias ..="cd .."
 export CLICOLOR=1
 export PS1="\[\033[01;32m\]$USER:\[\033[01;34m\]\w \$\[\033[00m\] "
 export GREP_OPTIONS='--color=auto'
+
+# Git autocompletion (see http://code-worrier.com/blog/autocomplete-git/)
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
