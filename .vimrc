@@ -1,7 +1,3 @@
-" Pathogen
-call pathogen#infect()
-call pathogen#helptags()
-
 " The intarnetz says the mighty comma should be your leader 
 let mapleader = ","
  
