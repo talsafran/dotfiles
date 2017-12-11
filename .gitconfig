@@ -1,3 +1,16 @@
+# To include this into your git config, add the following to ~/.gitconfig:
+# [include]
+#   path = /path/to/this/directory/.gitconfig
+
+[user]
+	name = Tal Safran
+[github]
+	user = talsafran
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+
 [alias]
   st = status
   co = checkout
@@ -9,3 +22,4 @@
   branch = auto
   interactive = auto
   grep = auto
+
