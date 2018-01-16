@@ -8,8 +8,8 @@
 	user = talsafran
 [push]
 	default = simple
-[credential]
-	helper = osxkeychain
+# [credential]
+#	helper = osxkeychain
 
 [alias]
   st = status
