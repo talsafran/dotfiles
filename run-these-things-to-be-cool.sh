@@ -22,6 +22,9 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 # http://code-worrier.com/blog/autocomplete-git/
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
+# Remove annoying Pro Tools Avid loader thing
+sudo defaults write /Library/LaunchAgents/com.avid.ApplicationManager.plist RunAtLoad -boolean false
+
 # TODO:
 # - check this out https://github.com/drduh/macOS-Security-and-Privacy-Guide
 # - add this https://github.com/karek314/macOS-home-call-drop/blob/master/homecall.sh
