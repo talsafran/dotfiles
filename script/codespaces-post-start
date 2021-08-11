@@ -8,7 +8,11 @@ then
 fi
 
 # Install some developer tools and setup Linux how I like it
-apt-get install -y \ wget zsh-autosuggestions locate
+apt-get install -y wget zsh-autosuggestions locate curl
+
 
 # Setup the database for locate
 updatedb
+
+# Install Oh My ZSH
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
