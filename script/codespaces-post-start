@@ -20,3 +20,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install Node
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+# Install https://github.com/sindresorhus/pure
+npm install --global pure-prompt
+
+autoload -U promptinit; promptinit
+prompt pure
