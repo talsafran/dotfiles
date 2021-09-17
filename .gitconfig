@@ -23,3 +23,5 @@
   interactive = auto
   grep = auto
 
+[core]
+  editor = vim
